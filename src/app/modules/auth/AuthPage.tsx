@@ -8,9 +8,9 @@ import {toAbsoluteUrl} from '../../../_metronic/helpers'
 
 const AuthLayout = () => {
   useEffect(() => {
-    document.body.classList.add('bg-white')
+    document.body.classList.add('com-black')
     return () => {
-      document.body.classList.remove('bg-white')
+      document.body.classList.remove('com-black')
     }
   }, [])
 
@@ -18,7 +18,7 @@ const AuthLayout = () => {
     <div
       className='d-flex flex-column flex-column-fluid bgi-position-y-bottom position-x-center bgi-no-repeat bgi-size-contain bgi-attachment-fixed'
       style={{
-        backgroundImage: `url(${toAbsoluteUrl('/media/illustrations/sketchy-1/14.png')})`,
+        backgroundImage: `url(${toAbsoluteUrl('/media/illustrations/sketchy-1/ComDash-Background-Login.jpg')})`,
       }}
     >
       {/* begin::Content */}
@@ -29,7 +29,7 @@ const AuthLayout = () => {
         </a>
         {/* end::Logo */}
         {/* begin::Wrapper */}
-        <div className='w-lg-500px bg-white rounded shadow-sm p-10 p-lg-15 mx-auto'>
+        <div className='w-lg-500px com-grey rounded shadow-sm p-10 p-lg-15 mx-auto'>
           <Outlet />
         </div>
         {/* end::Wrapper */}

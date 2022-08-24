@@ -56,7 +56,7 @@ export function Login() {
 
   return (
     <form
-      className='form w-100'
+      className='form w-100 com-grey'
       onSubmit={formik.handleSubmit}
       noValidate
       id='kt_login_signin_form'

@@ -12,3 +12,19 @@
 // Layout
 @import "layout/layout";
 
+// ComDash Styling by J4cks August 2022
+$comdash-black: #05090A;
+$comdash-grey: #565674;
+$comdash-sky: #009FF7;
+$comdash-gray: #8A8A99;
+$comdash-navy: #1E1E2D;
+$comdash-mint: #50CC89;
+
+
+.com-grey { background: $comdash-grey;}
+.com-sky { background: $comdash-sky;}
+.com-gray { background: $comdash-gray;}
+.com-navy { background: $comdash-navy;}
+.com-mint { background: $comdash-mint;}
+
+body { background: $comdash-black;}
