@@ -20,7 +20,7 @@ const TilesWidget2 = ({
       style={{
         backgroundColor: bgColor,
         backgroundPosition: 'right',
-        backgroundImage: `url("${toAbsoluteUrl('/media/svg/misc/taieri.svg')}")`,
+        backgroundImage: `url("${toAbsoluteUrl('/media/illustrations/Combots-Vector.png')}")`,
       }}
     >
       <div className='card-body d-flex flex-column justify-content-between'>

@@ -11,19 +11,19 @@ import {
 const DashboardPage = () => (
   <>
     {/* begin::Row */}
-    <div className='row g-5 g-xl-8'>
+    <div className='row g-5 g-xl-8 mb-5'>
       <div className='col-xl-4'>
         <TilesWidget1 className='card-xl-stretch mb-5 mb-xl-8' />
       </div>
       <div className='col-xl-8'>
         <TilesWidget5
           className='card-xxl-stretch bg-body'
-          svgIcon='/media/icons/duotune/general/gen002.svg'
+          svgIcon='/media/icons/duotune/medicine/med005.svg'
           titleClass='text-dark'
           descriptionClass='text-muted'
           iconClass='svg-icon-success'
-          title='8,600'
-          description='New Customers'
+          title='3.56'
+          description='Tier Score'
         />
       </div>
     </div>
