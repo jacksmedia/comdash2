@@ -13,17 +13,27 @@ const DashboardPage = () => (
     <div className='row g-5 g-xl-8 mb-5'>
       <div className='col-xl-4'>
         <TilesWidget1 className='card-xl-stretch mb-5 mb-xl-8' />
-      </div>
-      <div className='col-xl-8'>
         <TilesWidget5
-          className='card-xxl-stretch bg-body'
-          svgIcon='/media/icons/duotune/medicine/med005.svg'
+          className='card-xxl-stretch bg-body col'
+          svgIcon='/media/svg/misc/cd-lines.svg'
           titleClass='text-dark'
           descriptionClass='text-muted'
           iconClass='svg-icon-success'
           title='3.56'
           description='Tier Score'
         />
+        <TilesWidget5
+          className='card-xxl-stretch bg-body col'
+          svgIcon='/media/svg/misc/cd-boxes.svg'
+          titleClass='text-dark'
+          descriptionClass='text-muted'
+          iconClass='svg-icon-success'
+          title='98'
+          description='Combased NFTs'
+        />
+      </div>
+      <div className='col-xl-8 row'>
+        <TilesWidget2 className='card-xl-stretch mb-5 mb-xl-8' />
       </div>
     </div>
     {/* end::Row */}
