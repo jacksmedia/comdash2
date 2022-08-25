@@ -10,9 +10,9 @@ type Props = {
 }
 const TilesWidget2 = ({
   className,
-  bgColor = '#663259',
-  title = 'Create SaaS',
-  title2 = 'Based Reports',
+  bgColor = '#1E1E2D',
+  title = 'Not part of the',
+  title2 = 'Combased Community yet?',
 }: Props) => {
   return (
     <div
@@ -31,11 +31,11 @@ const TilesWidget2 = ({
         <div className='m-0'>
           <a
             href='#'
-            className='btn btn-danger fw-semibold px-6 py-3'
+            className='btn btn-success px-4 py-2'
             data-bs-toggle='modal'
             data-bs-target='#kt_modal_create_app'
           >
-            Create Campaign
+            Mint Combots
           </a>
         </div>
       </div>
