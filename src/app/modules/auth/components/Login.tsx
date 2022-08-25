@@ -86,7 +86,7 @@ export function Login() {
         <a href='#' className='btn btn-flex flex-center btn-light btn-lg w-100 mb-5'>
           <img
             alt='Logo'
-            src={toAbsoluteUrl('/media/svg/brand-logos/elrond.svg')}
+            src={toAbsoluteUrl('/media/svg/brand-logos/elrond-logo.png')}
             className='h-20px me-3'
           />
           2 Wallet
