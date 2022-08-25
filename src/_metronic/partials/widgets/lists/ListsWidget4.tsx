@@ -14,8 +14,8 @@ const ListsWidget4: React.FC<Props> = ({className, items = 6}) => {
       {/* begin::Header */}
       <div className='card-header border-0 pt-5'>
         <h3 className='card-title align-items-start flex-column'>
-          <span className='card-label fw-bold text-dark'>Trends</span>
-          <span className='text-muted mt-1 fw-semibold fs-7'>Latest tech trends</span>
+          <span className='card-label fw-bold text-dark'>Genesis CDO Wallet Statistics</span>
+          <span className='text-muted mt-1 fw-semibold fs-7'>Updated 1 day, 2 hours, 37 minutes ago</span>
         </h3>
         <div className='card-toolbar'>
           {/* begin::Menu */}
@@ -52,11 +52,11 @@ const ListsWidget4: React.FC<Props> = ({className, items = 6}) => {
           <div className='d-flex align-items-center flex-row-fluid flex-wrap'>
             <div className='flex-grow-1 me-2'>
               <a href='#' className='text-gray-800 text-hover-primary fs-6 fw-bold'>
-                Top Authors
+                EGLD Staking
               </a>
-              <span className='text-muted fw-semibold d-block fs-7'>Mark, Rowling, Esther</span>
+              <span className='text-muted fw-semibold d-block fs-7'>30% Distribution</span>
             </div>
-            <span className='badge badge-light fw-bold my-2'>+82$</span>
+            <span className='badge badge-light fw-bold my-2'>95 EGLD 1 wk ago</span>
           </div>
           {/* end::Section */}
         </div>
@@ -78,11 +78,11 @@ const ListsWidget4: React.FC<Props> = ({className, items = 6}) => {
           <div className='d-flex align-items-center flex-row-fluid flex-wrap'>
             <div className='flex-grow-1 me-2'>
               <a href='#' className='text-gray-800 text-hover-primary fs-6 fw-bold'>
-                Popular Authors
+                RIDE Farming
               </a>
-              <span className='text-muted fw-semibold d-block fs-7'>Randy, Steve, Mike</span>
+              <span className='text-muted fw-semibold d-block fs-7'>35% Distribution</span>
             </div>
-            <span className='badge badge-light fw-bold my-2'>+280$</span>
+            <span className='badge badge-light fw-bold my-2'>~44.4 EGLD & 13.370k RIDE</span>
           </div>
           {/* end::Section */}
         </div>
@@ -104,11 +104,11 @@ const ListsWidget4: React.FC<Props> = ({className, items = 6}) => {
           <div className='d-flex align-items-center flex-row-fluid flex-wrap'>
             <div className='flex-grow-1 me-2'>
               <a href='#' className='text-gray-800 text-hover-primary fs-6 fw-bold'>
-                New Users
+                UTK Farming
               </a>
-              <span className='text-muted fw-semibold d-block fs-7'>John, Pat, Jimmy</span>
+              <span className='text-muted fw-semibold d-block fs-7'>35% Distribution</span>
             </div>
-            <span className='badge badge-light fw-bold my-2'>+4500$</span>
+            <span className='badge badge-light fw-bold my-2'>47.5743</span>
           </div>
           {/* end::Section */}
         </div>
@@ -130,9 +130,9 @@ const ListsWidget4: React.FC<Props> = ({className, items = 6}) => {
           <div className='d-flex align-items-center flex-row-fluid flex-wrap'>
             <div className='flex-grow-1 me-2'>
               <a href='#' className='text-gray-800 text-hover-primary fs-6 fw-bold'>
-                Active Customers
+                CRT Farming
               </a>
-              <span className='text-muted fw-semibold d-block fs-7'>Mark, Rowling, Esther</span>
+              <span className='text-muted fw-semibold d-block fs-7'>From Community Only</span>
             </div>
             <span className='badge badge-light fw-bold my-2'>+4500$</span>
           </div>
@@ -157,9 +157,9 @@ const ListsWidget4: React.FC<Props> = ({className, items = 6}) => {
             <div className='d-flex align-items-center flex-row-fluid flex-wrap'>
               <div className='flex-grow-1 me-2'>
                 <a href='#' className='text-gray-800 text-hover-primary fs-6 fw-bold'>
-                  Bestseller Theme
+                  CRT Farming
                 </a>
-                <span className='text-muted fw-semibold d-block fs-7'>Disco, Retro, Sports</span>
+                <span className='text-muted fw-semibold d-block fs-7'>From Lottery Only</span>
               </div>
               <span className='badge badge-light fw-bold my-2'>+4500$</span>
             </div>

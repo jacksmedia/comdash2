@@ -119,9 +119,6 @@ const DashboardPage = () => (
         <ListsWidget2 className='card-xl-stretch mb-xl-8' />
       </div>
       <div className='col-xl-4'>
-        <ListsWidget6 className='card-xl-stretch mb-xl-8' />
-      </div>
-      <div className='col-xl-4'>
         <ListsWidget4 className='card-xl-stretch mb-5 mb-xl-8' items={5} />
       </div>
     </div>
