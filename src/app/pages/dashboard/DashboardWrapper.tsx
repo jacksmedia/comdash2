@@ -4,7 +4,6 @@ import {
   ListsWidget4,
   TilesWidget1,
   TilesWidget2,
-  TilesWidget4,
   TilesWidget5,
 } from '../../../_metronic/partials/widgets'
 
