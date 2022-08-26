@@ -16,7 +16,7 @@ const TilesWidget2 = ({
 }: Props) => {
   return (
     <div
-      className={clsx('card h-175px bgi-no-repeat bgi-size-contain', className)}
+      className={clsx('card bgi-no-repeat bgi-size-contain', className)}
       style={{
         backgroundColor: bgColor,
         backgroundPosition: 'right',
@@ -24,7 +24,7 @@ const TilesWidget2 = ({
       }}
     >
       <div className='card-body d-flex flex-column justify-content-between'>
-        <h2 className='text-white fw-bold mb-5'>
+        <h2 className='fw-bold mb-5'>
           {title} <br /> {title2}{' '}
         </h2>
 

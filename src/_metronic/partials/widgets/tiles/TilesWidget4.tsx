@@ -1,28 +1,38 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import clsx from 'clsx'
+import {toAbsoluteUrl} from '../../../helpers'
 
 type Props = {
   className?: string
 }
 const TilesWidget4 = ({className}: Props) => {
   return (
-    <div className={clsx('card h-150px', className)}>
+    <div className={clsx('card', className)}>
       <div className='card-body d-flex align-items-center justify-content-between flex-wrap'>
         <div className='me-2'>
-          <h2 className='fw-bold text-gray-800 mb-3'>Create CRM Reports</h2>
+          <h2 className='fw-bold text-gray-800 mb-3'>You are currently ELITE tier,
+based on your current holdings.</h2>
 
           <div className='text-muted fw-semibold fs-6'>
-            Generate the latest CRM report for company projects
+            You are 8 NFT with an average ranking of 750, from achieving the next tier.
           </div>
         </div>
-        <a
+        <div
+          className={clsx('card h-175px bgi-no-repeat bgi-size-contain', className)}
+          style={{
+            backgroundPosition: 'right',
+            backgroundImage: `url("${toAbsoluteUrl('/media/illustrations/Combots-Vector.png')}")`,
+          }}
+        >
+          <a
           href='#'
           className='btn btn-primary fw-semibold'
           data-bs-toggle='modal'
           data-bs-target='#kt_modal_create_campaign'
-        >
-          Start Now
-        </a>
+          >
+            Start Now
+          </a>
+        </div>
       </div>
     </div>
   )
