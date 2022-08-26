@@ -18,19 +18,19 @@ based on your current holdings.</h2>
           </div>
         </div>
         <div
-          className={clsx('card h-175px bgi-no-repeat bgi-size-contain', className)}
+          className={clsx('card bgi-no-repeat bgi-size-contain', className)}
           style={{
             backgroundPosition: 'right',
-            backgroundImage: `url("${toAbsoluteUrl('/media/illustrations/Combots-Vector.png')}")`,
+            backgroundImage: `url("${toAbsoluteUrl('/media/illustrations/tier-elite.png')}")`,
           }}
         >
           <a
           href='#'
-          className='btn btn-primary fw-semibold'
+          className='btn btn-success fw-semibold'
           data-bs-toggle='modal'
           data-bs-target='#kt_modal_create_campaign'
           >
-            Start Now
+            See Benefits
           </a>
         </div>
       </div>

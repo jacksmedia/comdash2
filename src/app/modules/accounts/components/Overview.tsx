@@ -36,7 +36,7 @@ export function Overview() {
             <label className='col-lg-4 fw-semibold text-muted'>Company</label>
 
             <div className='col-lg-8 fv-row'>
-              <span className='fw-semibold fs-6'>Keenthemes</span>
+              <span className='fw-semibold fs-6'>Combased</span>
             </div>
           </div>
 
@@ -62,7 +62,7 @@ export function Overview() {
 
             <div className='col-lg-8'>
               <a href='#' className='fw-semibold fs-6 text-dark text-hover-primary'>
-                keenthemes.com
+                combased.io
               </a>
             </div>
           </div>
