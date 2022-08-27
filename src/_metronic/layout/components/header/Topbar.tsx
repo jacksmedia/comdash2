@@ -2,9 +2,6 @@
 import {FC} from 'react'
 import clsx from 'clsx'
 import {toAbsoluteUrl} from '../../../helpers'
-import {
-  HeaderUserMenu,
-} from '../../../partials'
 
 const toolbarButtonMarginClass = 'ms-1 ms-lg-3',
   toolbarUserAvatarHeightClass = 'symbol-30px symbol-md-40px'
