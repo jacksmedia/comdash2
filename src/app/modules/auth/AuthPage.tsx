@@ -22,20 +22,22 @@ const AuthLayout = () => {
       }}
     >
       {/* begin::Content */}
-      <div className='d-flex flex-center flex-row flex-row-fluid p-10 pb-lg-20'>
+      <div className='row m-2 p-2'>
         {/* begin::Logo */}
-        <div>
-          <a href='#' className='m-10'>
+        <div className='col-lg-6'>
+          <a href='#' className='m-0 pb-2'>
             <img alt='Logo' src={toAbsoluteUrl('/media/logos/default.svg')} className='h-45px' />
           </a>
-          <p>ComDash - The Web3 Swiss-army Dashboard on The Elrond Blockchain.</p>
+          <p className=''>ComDash - The Web3 Swiss-army Dashboard on The Elrond Blockchain.</p>
         </div>
         {/* end::Logo */}
-        {/* begin::Wrapper */}
-        <div className='w-lg-500px com-navy rounded shadow-sm p-10 p-lg-15 mx-auto'>
-          <Outlet />
+        {/* begin::Button Panel */}
+        <div className='col-lg-6'>
+          <div className='com-navy rounded shadow-sm p-2'>
+            <Outlet />
+          </div>
         </div>
-        {/* end::Wrapper */}
+        {/* end::Button Panel */}
       </div>
       {/* end::Content */}
     </div>
