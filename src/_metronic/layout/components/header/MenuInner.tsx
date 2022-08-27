@@ -8,8 +8,8 @@ export function MenuInner() {
     <>
       <MenuItem title={intl.formatMessage({id: 'MENU.DASHBOARD'})} to='/dashboard' />
       <MenuInnerWithSub
-        title='Crafted'
-        to='/crafted'
+        title='Help'
+        to='/help'
         menuPlacement='bottom-start'
         menuTrigger='click'
       >
