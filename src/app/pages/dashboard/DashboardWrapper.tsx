@@ -12,10 +12,14 @@ const DashboardPage = () => (
     {/* begin::Row */}
     <div className='row g-5 g-xl-8 mb-5'>
       <div className='col-xl-4'>
-        <div className='card-xl-stretch mb-5 mb-xl-8 bg-white' >
-          
+        <div className='card-xl-stretch mb-5 mb-xl-8 bg-success rounded d-flex flex-row flex-center' >
+          <div className='me-2'>
+            <h2 className='fw-bold text-gray-800 mb-3'>
+              Hello, @joeiwu
+            </h2>
+          </div>
           <TilesWidget5
-            className='card-xxl-stretch bg-body '
+            className='card-xxl-stretch bg-body mx-3 my-2 dark-card-bg'
             svgIcon='/media/svg/misc/cd-lines.svg'
             titleClass='text-dark'
             descriptionClass='text-muted'
@@ -24,7 +28,7 @@ const DashboardPage = () => (
             description='Tier Score'
           />
           <TilesWidget5
-            className='card-xxl-stretch bg-body '
+            className='card-xxl-stretch bg-body mx-3 my-2 dark-card-bg'
             svgIcon='/media/svg/misc/cd-boxes.svg'
             titleClass='text-dark'
             descriptionClass='text-muted'

@@ -23,7 +23,7 @@
       var lsKey = "kt_" + (hasKTName ? name + "_" : "") + "theme_mode_value"
       var themeMode = localStorage.getItem(lsKey);
       if (!themeMode) {
-        if (defaultThemeMode === "system") {
+        if (defaultThemeMode === "dark") {
           themeMode =
             window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
         } else {
