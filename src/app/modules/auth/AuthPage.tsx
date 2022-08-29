@@ -4,6 +4,7 @@ import {Outlet, Route, Routes} from 'react-router-dom'
 import {Registration} from './components/Registration'
 import {ForgotPassword} from './components/ForgotPassword'
 import {Login} from './components/Login'
+import {WalletWeb} from './components/WalletWeb'
 import {toAbsoluteUrl} from '../../../_metronic/helpers'
 
 const AuthLayout = () => {
@@ -22,13 +23,13 @@ const AuthLayout = () => {
       }}
     >
       {/* begin::Content */}
-      <div className='row m-2 p-2'>
+      <div className='row m-2 p-3 d-flex align-items-center my-auto'>
         {/* begin::Logo */}
         <div className='col-lg-6'>
           <a href='#' className='m-0 pb-2'>
             <img alt='Logo' src={toAbsoluteUrl('/media/logos/default.svg')} className='h-45px' />
           </a>
-          <p className=''>ComDash - The Web3 Swiss-army Dashboard on The Elrond Blockchain.</p>
+          <p className='text-white my-2'>ComDash - The Web3 Swiss-army Dashboard on The Elrond Blockchain.</p>
         </div>
         {/* end::Logo */}
         {/* begin::Button Panel */}
@@ -48,6 +49,7 @@ const AuthPage = () => (
   <Routes>
     <Route element={<AuthLayout />}>
       <Route path='login' element={<Login />} />
+      <Route path='walletweb' element={<WalletWeb />} />
       <Route path='registration' element={<Registration />} />
       <Route path='forgot-password' element={<ForgotPassword />} />
       <Route index element={<Login />} />

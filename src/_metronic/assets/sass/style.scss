@@ -30,6 +30,11 @@ $comdash-dark-accent: #1B1B29;
 .com-mint { background: $comdash-mint;}
 .dark-card-bg { background: $comdash-dark-accent;}
 
+// for src/app/modules/auth/components < Login />
+.btn-border {
+	border: 2px solid #8A8A99;
+}
+
 body {
 	background-color: #151520;
 }

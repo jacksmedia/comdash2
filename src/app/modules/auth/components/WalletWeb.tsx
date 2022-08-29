@@ -29,7 +29,7 @@ const initialValues = {
   https://medium.com/@maurice.de.beijer/yup-validation-and-typescript-and-formik-6c342578a20e
 */
 
-export function Login() {
+export function WalletWeb() {
   const [loading, setLoading] = useState(false)
   const {saveAuth, setCurrentUser} = useAuth()
   const formik = useFormik({
@@ -72,35 +72,35 @@ export function Login() {
       <div className='text-center'>
         
         {/* begin::btn1 link */}
-        <a href='#' className='btn btn-flex flex-center btn-dark com-grey btn-lg w-100 btn-border mb-5'>
+        <a href='#' className='btn btn-flex flex-center btn-light btn-lg w-100 mb-5'>
           <img
             alt='Logo'
-            src={toAbsoluteUrl('/media/svg/brand-logos/maiar-wallet.svg')}
+            src={toAbsoluteUrl('/media/svg/brand-logos/google-icon.svg')}
             className='h-20px me-3'
           />
-          Maiar Defi Wallet
+          1 Wallet
         </a>
         {/* end::btn1 link */}
 
         {/* begin::btn2 link */}
-        <a href='#' className='btn btn-flex flex-center btn-dark com-grey btn-lg w-100 btn-border mb-5'>
+        <a href='#' className='btn btn-flex flex-center btn-light btn-lg w-100 mb-5'>
           <img
             alt='Logo'
-            src={toAbsoluteUrl('/media/svg/brand-logos/egld.svg')}
+            src={toAbsoluteUrl('/media/svg/brand-logos/elrond-logo.png')}
             className='h-20px me-3'
           />
-          Elrond Web Wallet
+          2 Wallet
         </a>
         {/* end::btn2 link */}
 
         {/* begin::btn3 link */}
-        <a href='#' className='btn btn-flex flex-center btn-dark com-grey btn-lg w-100 btn-border'>
+        <a href='#' className='btn btn-flex flex-center btn-light btn-lg w-100'>
           <img
             alt='Logo'
-            src={toAbsoluteUrl('/media/svg/brand-logos/ledger-wallet.svg')}
+            src={toAbsoluteUrl('/media/svg/brand-logos/apple-black.svg')}
             className='h-20px me-3'
           />
-          Ledger Hardware Wallet
+          3 Wallet
         </a>
         {/* end::btn3 link */}
 
