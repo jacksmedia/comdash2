@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import clsx from 'clsx'
-import {KTSVG, toAbsoluteUrl} from '../../../helpers'
+import {toAbsoluteUrl} from '../../../helpers'
 
 type Props = {
   className?: string
@@ -11,30 +11,26 @@ type Props = {
 const TilesWidget3 = ({
   className,
   bgColor = '#663259',
-  title = 'Create SaaS',
-  title2 = 'Based Reports',
+  title = 'You are currently ELITE tier,',
+  title2 = 'based on your current holdings.',
 }: Props) => {
   return (
     <div
       className={clsx('card h-100 bgi-no-repeat bgi-size-cover', className)}
-      style={{backgroundImage: `url("${toAbsoluteUrl('/media/misc/bg-2.jpg')}")`}}
+      style={{backgroundImage: `url("${toAbsoluteUrl('/media/illustrations/tier-elite.png')}")`}}
     >
       {/* begin::Body */}
       <div className='card-body d-flex flex-column justify-content-between'>
         {/* begin::Title */}
         <div className='text-white fw-bold fs-2'>
-          <h2 className='fw-bold text-white mb-2'>Create Reports</h2>
-          With App
+          <h2 className='fw-bold text-white mb-2'>You are currently ELITE tier,</h2>
+          based on your current holdings.
         </div>
         {/* end::Title */}
 
         {/* begin::Link */}
         <a href='#' className='text-warning fw-semibold'>
-          Create Report
-          <KTSVG
-            className='svg-icon-2 svg-icon-warning'
-            path='/media/icons/duotune/arrows/arr064.svg'
-          />
+          You are 8 NFT with an average ranking of 750, from achieving the next tier.
         </a>
         {/* end::Link */}
       </div>

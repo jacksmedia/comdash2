@@ -41,7 +41,7 @@ const ListsWidget4: React.FC<Props> = ({className, items = 6}) => {
           <div className='symbol symbol-50px me-5'>
             <span className='symbol-label'>
               <img
-                src={toAbsoluteUrl('/media/svg/brand-logos/plurk.svg')}
+                src={toAbsoluteUrl('/media/svg/brand-logos/egld.svg')}
                 className='h-50 align-self-center'
                 alt=''
               />
@@ -67,7 +67,7 @@ const ListsWidget4: React.FC<Props> = ({className, items = 6}) => {
           <div className='symbol symbol-50px me-5'>
             <span className='symbol-label'>
               <img
-                src={toAbsoluteUrl('/media/svg/brand-logos/telegram.svg')}
+                src={toAbsoluteUrl('/media/svg/brand-logos/ride.svg')}
                 className='h-50 align-self-center'
                 alt=''
               />
@@ -93,7 +93,7 @@ const ListsWidget4: React.FC<Props> = ({className, items = 6}) => {
           <div className='symbol symbol-50px me-5'>
             <span className='symbol-label'>
               <img
-                src={toAbsoluteUrl('/media/svg/brand-logos/vimeo.svg')}
+                src={toAbsoluteUrl('/media/svg/brand-logos/utk.svg')}
                 className='h-50 align-self-center'
                 alt=''
               />
@@ -119,7 +119,7 @@ const ListsWidget4: React.FC<Props> = ({className, items = 6}) => {
           <div className='symbol symbol-50px me-5'>
             <span className='symbol-label'>
               <img
-                src={toAbsoluteUrl('/media/svg/brand-logos/bebo.svg')}
+                src={toAbsoluteUrl('/media/svg/brand-logos/crt.svg')}
                 className='h-50 align-self-center'
                 alt=''
               />
@@ -146,7 +146,7 @@ const ListsWidget4: React.FC<Props> = ({className, items = 6}) => {
             <div className='symbol symbol-50px me-5'>
               <span className='symbol-label'>
                 <img
-                  src={toAbsoluteUrl('/media/svg/brand-logos/kickstarter.svg')}
+                  src={toAbsoluteUrl('/media/svg/brand-logos/crt.svg')}
                   className='h-50 align-self-center'
                   alt=''
                 />

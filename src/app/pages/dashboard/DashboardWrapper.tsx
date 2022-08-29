@@ -3,8 +3,8 @@ import {PageTitle} from '../../../_metronic/layout/core'
 import {
   ListsWidget4,
   TilesWidget2,
+  TilesWidget3,
   TilesWidget5,
-  TilesWidget4,
 } from '../../../_metronic/partials/widgets'
 
 const DashboardPage = () => (
@@ -39,7 +39,7 @@ const DashboardPage = () => (
         </div>
       </div>
       <div className='col-xl-8'>
-        <TilesWidget4 className='card-xl-stretch mb-5 mb-xl-8 bg-body' />
+        <TilesWidget3 className='card-xl-stretch mb-5 mb-xl-8 bg-body' />
       </div>
     </div>
     {/* end::Row */}
