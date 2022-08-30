@@ -16,9 +16,9 @@ const DashboardPage = () => (
         <div className='tile8-div1 rounded bg-success d-flex flex-row flex-center card-xl-stretch mb-5 mb-xl-8'>
           <h2 className='fw-bold text-gray-800 my-3'>Hello, @joeiwu</h2>
         </div>
-        <div className='tile8-div2 rounded bg-body d-flex flex-row flex-center card-xl-stretch mb-5 mb-xl-8'> </div>
+        <div className='tile8-div2 rounded com-navy d-flex flex-row flex-center card-xl-stretch mb-5 mb-xl-8'> </div>
           <TilesWidget5
-            className='bg-body mx-3 my-2 dark-card-bg tile8-div3'
+            className='com-navy mx-3 my-2 dark-card-bg tile8-div3'
             svgIcon='/media/svg/misc/cd-lines.svg'
             titleClass='text-dark'
             descriptionClass='text-muted'
@@ -27,7 +27,7 @@ const DashboardPage = () => (
             description='Tier Score'
           />
           <TilesWidget5
-            className='bg-body mx-3 my-2 dark-card-bg tile8-div4'
+            className='com-navy mx-3 my-2 dark-card-bg tile8-div4'
             svgIcon='/media/svg/misc/cd-boxes.svg'
             titleClass='text-dark'
             descriptionClass='text-muted'
@@ -38,7 +38,7 @@ const DashboardPage = () => (
       </div>
 
       <div className='col-xl-8'>
-        <TilesWidget3 className='card-xl-stretch mb-5 mb-xl-8 bg-body' />
+        <TilesWidget3 className='card-xl-stretch mb-5 mb-xl-8 com-navy' />
       </div>
     </div>
     {/* end::Row */}
@@ -46,10 +46,10 @@ const DashboardPage = () => (
     {/* begin::Row */}
     <div className='row gy-5 g-xl-8'>
       <div className='col-xl-4'>
-        <TilesWidget2 className='card-xl-stretch mb-5 mb-xl-8 bg-body' />
+        <TilesWidget2 className='card-xl-stretch mb-5 mb-xl-8 com-navy' />
       </div>
       <div className='col-xl-8'>
-        <ListsWidget4 className='card-xl-stretch mb-5 mb-xl-8' items={5} />
+        <ListsWidget4 className='com-navy card-xl-stretch mb-5 mb-xl-8' items={5} />
       </div>
     </div>
     {/* end::Row */}

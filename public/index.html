@@ -7,6 +7,10 @@
   <meta name="theme-color" content="#1E1E2D" />
   <meta name="description" content="ComDash by Combased" />
   <link href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet" />
+  <!--begin::Global Stylesheets Bundle(used by all pages) enabled Dark Mode see https://joonggaetalk.com/inc/ext/theme/documentation/getting-started/dark-mode.html-->
+<link href="/inc/ext/theme/assets/plugins/global/plugins.dark.bundle.css" rel="stylesheet" type="text/css" />
+<link href="/inc/ext/theme/assets/css/style.dark.bundle.css" rel="stylesheet" type="text/css" />
+<!--end::Global Stylesheets Bundle-->
   <title>ComDash - The Retail and Enterprise Web3 Dashboard for Elrond</title>
   <link rel="shortcut icon" href="%PUBLIC_URL%/media/logos/favicon.ico" />
   <link rel="stylesheet" id="layout-styles-anchor" href="%PUBLIC_URL%/splash-screen.css" />
@@ -17,7 +21,7 @@
   <!--begin::Theme mode setup on page load-->
   <script>
     if (document.documentElement) {
-      var defaultThemeMode = "system";
+      var defaultThemeMode = "dark";
 
       var hasKTName = document.body.hasAttribute("data-kt-name");
       var lsKey = "kt_" + (hasKTName ? name + "_" : "") + "theme_mode_value"
@@ -25,7 +29,7 @@
       if (!themeMode) {
         if (defaultThemeMode === "dark") {
           themeMode =
-            window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+            window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "dark";
         } else {
           themeMode = defaultThemeMode;
         }

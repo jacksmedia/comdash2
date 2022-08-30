@@ -10,7 +10,7 @@ type Props = {
 
 const ListsWidget4: React.FC<Props> = ({className, items = 6}) => {
   return (
-    <div className='card card-xl-stretch mb-xl-8'>
+    <div className='card card-xl-stretch mb-xl-8 com-navy'>
       {/* begin::Header */}
       <div className='card-header border-0 pt-5'>
         <h3 className='card-title align-items-start flex-column'>
@@ -64,7 +64,7 @@ const ListsWidget4: React.FC<Props> = ({className, items = 6}) => {
         {/* begin::Item */}
         <div className='d-flex align-items-sm-center mb-7'>
           {/* begin::Symbol */}
-          <div className='symbol symbol-50px me-5'>
+          <div className='symbol com-navy symbol-50px me-5'>
             <span className='symbol-label'>
               <img
                 src={toAbsoluteUrl('/media/svg/brand-logos/ride.svg')}
