@@ -26,7 +26,10 @@ $comdash-dark-accent: #1B1B29;
 .com-grey { background: $comdash-grey;}
 .com-sky { background: $comdash-sky;}
 .com-text { background: $comdash-greytext;}
-.com-navy { background: $comdash-navy;}
+.com-navy {
+	background: $comdash-navy;
+	color: #9191A0;
+}
 .com-mint { background: $comdash-mint;}
 .dark-card-bg { background: $comdash-dark-accent;}
 
@@ -38,17 +41,3 @@ $comdash-dark-accent: #1B1B29;
 body {
 	background-color: #151520;
 }
-
-// special top Dashboard tile layout
-.tile8-parent {
-	display: grid;
-	grid-template-columns: repeat(5, 1fr);
-	grid-template-rows: repeat(5, 1fr);
-	grid-column-gap: 0px;
-	grid-row-gap: 0px;
-	}
-
-.tile8-div1 { grid-area: 1 / 1 / 3 / 6; }
-.tile8-div2 { grid-area: 3 / 1 / 5 / 6; }
-.tile8-div3 { grid-area: 2 / 2 / 4 / 3; }
-.tile8-div4 { grid-area: 2 / 4 / 4 / 5; }

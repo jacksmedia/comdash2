@@ -1,7 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import clsx from 'clsx'
 import {useState} from 'react'
-import {KTSVG} from '../../../helpers'
 import { CreateAppModal } from '../../../partials'
 import {useLayout} from '../../core'
 import {DefaultTitle} from '../header/page-title/DefaultTitle'
@@ -22,40 +21,8 @@ const Toolbar1 = () => {
 
         {/* begin::Actions */}
         <div className='d-flex align-items-center py-1'>
-          {/* begin::Wrapper */}
-          <div className='me-4'>
-            {/* begin::Menu */}
-            <a
-              href='#'
-              className='btn btn-custom btn-active-white btn-flex btn-color-white btn-active-color-primary fw-bold'
-              data-kt-menu-trigger='click'
-              data-kt-menu-placement='bottom-end'
-              data-kt-menu-flip='top-end'
-            >
-              <KTSVG
-                path='/media/icons/duotune/general/gen031.svg'
-                className='svg-icon-5 svg-icon-gray-500 me-1'
-              />
-              Filter
-            </a>
 
-            {/* end::Menu */}
-          </div>
-          {/* end::Wrapper */}
-
-          {/* begin::Button */}
-
-          <a
-            className='btn btn-bg-white btn-active-color-primary cursor-pointer'
-            data-bs-toggle='modal'
-            data-bs-target='#kt_modal_create_app'
-            id='kt_toolbar_primary_button'
-            style={{color: 'rgb(24, 28, 50)'}}
-            onClick={() => setShowCreateAppModal(true)}
-          >
-            Create
-          </a>
-          {/* end::Button */}
+          
         </div>
         {/* end::Actions */}
       </div>
