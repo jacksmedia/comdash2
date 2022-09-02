@@ -19,7 +19,7 @@ const loginSchema = Yup.object().shape({
 })
 
 const initialValues = {
-  email: 'admin@demo.com',
+  email: 'erd1kx0cmqe5dyr4t3zq54f2gcylznhtnnxqt4ndrd5qdd34fln2ezhsasdc7k',
   password: 'demo',
 }
 
@@ -54,7 +54,7 @@ export function Login() {
 
   return (
     <form
-      className='form w-100 com-navy rounded'
+      className='form w-100 com-navy p-5'
       onSubmit={formik.handleSubmit}
       noValidate
       id='kt_login_signin_form'
@@ -107,8 +107,12 @@ export function Login() {
 
         {/* begin::Separator */}
         
-        <div className='text-center text-muted text-uppercase fw-bold mb-5'>or</div>
-        
+        <div className='d-flex flex-row flex-center'>
+          <div className='separator w-25 m-2'></div>  
+          <div className='text-center text-muted text-uppercase fw-bold m-5'>or</div>
+          <div className='separator w-25 m-2'></div>
+        </div>
+
         {/* end::Separator */}
 
         <button
