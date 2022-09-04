@@ -50,13 +50,24 @@ const ListsWidget4: React.FC<Props> = ({className, items = 6}) => {
           {/* end::Symbol */}
           {/* begin::Section */}
           <div className='d-flex align-items-center flex-row-fluid flex-wrap'>
-            <div className='flex-grow-1 me-2'>
+            <div className='col'>
               <a href='#' className='text-gray-800 text-hover-primary fs-6 fw-bold'>
                 EGLD Staking
               </a>
               <span className='text-muted fw-semibold d-block fs-7'>30% Distribution</span>
             </div>
-            <span className='badge badge-light fw-bold my-2'>95 EGLD 1 wk ago</span>
+            <div className='col'>
+              <span className='text-gray-800 text-primary fs-6 fw-bold'>4</span>
+              <span className='text-muted fw-semibold d-block fs-7'>Staking Agencies</span>
+            </div>
+            <div className='col'>
+              <span className='text-gray-800 text-primary fs-6 fw-bold'>95 EGLD</span>
+              <span className='text-muted fw-semibold d-block fs-7'>1 Week Ago</span>
+            </div>
+            <div className='col text-end'>
+              <span className='text-gray-800 text-primary fs-6 fw-bold'>99 EGLD</span>
+              <span className='text-muted fw-semibold d-block fs-7'>Current Update</span>
+            </div>
           </div>
           {/* end::Section */}
         </div>
@@ -76,13 +87,24 @@ const ListsWidget4: React.FC<Props> = ({className, items = 6}) => {
           {/* end::Symbol */}
           {/* begin::Section */}
           <div className='d-flex align-items-center flex-row-fluid flex-wrap'>
-            <div className='flex-grow-1 me-2'>
+            <div className='col'>
               <a href='#' className='text-gray-800 text-hover-primary fs-6 fw-bold'>
-                RIDE Farming
+                RIDE
               </a>
-              <span className='text-muted fw-semibold d-block fs-7'>35% Distribution</span>
+              <span className='text-muted fw-semibold d-block fs-7'>30% Distribution</span>
             </div>
-            <span className='badge badge-light fw-bold my-2'>~44.4 EGLD & 13.370k RIDE</span>
+            <div className='col'>
+              <span className='text-gray-800 text-primary fs-6 fw-bold'>13.2252</span>
+              <span className='text-muted fw-semibold d-block fs-7'>RIDEEGLDLPStakedLK</span>
+            </div>
+            <div className='col'>
+              <span className='text-gray-800 text-primary fs-6 fw-bold'>~44.4 EGLD & 13.370k RIDE</span>
+              <span className='text-muted fw-semibold d-block fs-7'>1 Week Ago</span>
+            </div>
+            <div className='col text-end'>
+              <span className='text-gray-800 text-primary fs-6 fw-bold'>~45.2 EGLD & 13.130k RIDE (I.L. Only)</span>
+              <span className='text-muted fw-semibold d-block fs-7'>Current Update</span>
+            </div>
           </div>
           {/* end::Section */}
         </div>
@@ -102,13 +124,24 @@ const ListsWidget4: React.FC<Props> = ({className, items = 6}) => {
           {/* end::Symbol */}
           {/* begin::Section */}
           <div className='d-flex align-items-center flex-row-fluid flex-wrap'>
-            <div className='flex-grow-1 me-2'>
+            <div className='col'>
               <a href='#' className='text-gray-800 text-hover-primary fs-6 fw-bold'>
-                UTK Farming
+                UTK
               </a>
-              <span className='text-muted fw-semibold d-block fs-7'>35% Distribution</span>
+              <span className='text-muted fw-semibold d-block fs-7'>30% Distribution</span>
             </div>
-            <span className='badge badge-light fw-bold my-2'>47.5743</span>
+            <div className='col'>
+              <span className='text-gray-800 text-primary fs-6 fw-bold'>47.5743</span>
+              <span className='text-muted fw-semibold d-block fs-7'>UTKWEGLDLPStakedLK</span>
+            </div>
+            <div className='col'>
+              <span className='text-gray-800 text-primary fs-6 fw-bold'>~48.9 EGLD & ~21k UTK</span>
+              <span className='text-muted fw-semibold d-block fs-7'>1 Week Ago</span>
+            </div>
+            <div className='col text-end'>
+              <span className='text-gray-800 text-primary fs-6 fw-bold'>~49.3 EGLD & ~20.9k UTK (I.L. Only)</span>
+              <span className='text-muted fw-semibold d-block fs-7'>Current Update</span>
+            </div>
           </div>
           {/* end::Section */}
         </div>
@@ -128,13 +161,24 @@ const ListsWidget4: React.FC<Props> = ({className, items = 6}) => {
           {/* end::Symbol */}
           {/* begin::Section */}
           <div className='d-flex align-items-center flex-row-fluid flex-wrap'>
-            <div className='flex-grow-1 me-2'>
+            <div className='col'>
               <a href='#' className='text-gray-800 text-hover-primary fs-6 fw-bold'>
-                CRT Farming
+                CRT 1
               </a>
-              <span className='text-muted fw-semibold d-block fs-7'>From Community Only</span>
+              <span className='text-muted fw-semibold d-block fs-7'>30% Distribution</span>
             </div>
-            <span className='badge badge-light fw-bold my-2'>+4500$</span>
+            <div className='col'>
+              <span className='text-gray-800 text-primary fs-6 fw-bold'>2.2142</span>
+              <span className='text-muted fw-semibold d-block fs-7'>CRTWEGLDLPStakedLK</span>
+            </div>
+            <div className='col'>
+              <span className='text-gray-800 text-primary fs-6 fw-bold'>N/A</span>
+              <span className='text-muted fw-semibold d-block fs-7'>Last Week</span>
+            </div>
+            <div className='col text-end'>
+              <span className='text-gray-800 text-primary fs-6 fw-bold'>~1.92 EGLD & ~467 CRT</span>
+              <span className='text-muted fw-semibold d-block fs-7'>Current Update</span>
+            </div>
           </div>
           {/* end::Section */}
         </div>
@@ -154,16 +198,27 @@ const ListsWidget4: React.FC<Props> = ({className, items = 6}) => {
             </div>
             {/* end::Symbol */}
             {/* begin::Section */}
-            <div className='d-flex align-items-center flex-row-fluid flex-wrap'>
-              <div className='flex-grow-1 me-2'>
-                <a href='#' className='text-gray-800 text-hover-primary fs-6 fw-bold'>
-                  CRT Farming
-                </a>
-                <span className='text-muted fw-semibold d-block fs-7'>From Lottery Only</span>
-              </div>
-              <span className='badge badge-light fw-bold my-2'>+4500$</span>
+          <div className='d-flex align-items-center flex-row-fluid flex-wrap'>
+            <div className='col'>
+              <a href='#' className='text-gray-800 text-hover-primary fs-6 fw-bold'>
+                CRT 2
+              </a>
+              <span className='text-muted fw-semibold d-block fs-7'>30% Distribution</span>
             </div>
-            {/* end::Section */}
+            <div className='col'>
+              <span className='text-gray-800 text-primary fs-6 fw-bold'>1.1244</span>
+              <span className='text-muted fw-semibold d-block fs-7'>CRTWEGLDLPStakedLK</span>
+            </div>
+            <div className='col'>
+              <span className='text-gray-800 text-primary fs-6 fw-bold'>N/A</span>
+              <span className='text-muted fw-semibold d-block fs-7'>Last Week</span>
+            </div>
+            <div className='col text-end'>
+              <span className='text-gray-800 text-primary fs-6 fw-bold'>~0.97 EGLD & ~237 CRT</span>
+              <span className='text-muted fw-semibold d-block fs-7'>Current Update</span>
+            </div>
+          </div>
+          {/* end::Section */}
           </div>
         )}
 
