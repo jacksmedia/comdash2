@@ -10,12 +10,15 @@ import {
 const DashboardPage = () => (
   <>
     {/* begin::Row */}
-    <div className='row g-5 g-xl-8 mb-5'>
+    <div className='row gy-5 g-xl-8 mb-5'>
 
       <div className='col-xl-4'>
-        <div className='rounded bg-success d-flex flex-row flex-center card-xl-stretch mb-5 mb-xl-8'>
-          <h2 className='fw-bold text-white m-3'>Hello, @joeiwu</h2>
-          <div className='rounded com-navy d-flex flex-row flex-center card-xl-stretch mb-5 mb-xl-8'> </div>
+        <div className='rounded d-flex row flex-center card-xl-stretch mb-5 mx-2 mb-xl-8 testgreen'>
+          <div className='row mx-5 my-10'>
+            <h2 className='fw-bold text-white'>Hello, @joeiwu</h2>
+            <p className='fw-bold text-white'>Thank you for being loyal and actively supporting Combased.</p>
+          </div>
+          <div className='rounded com-navy d-flex row flex-center card-xl-stretch mb-5 mb-xl-8'> </div>
             <TilesWidget5
               className='mx-3 my-2 dark-card-bg card-lg-stretch'
               svgIcon='/media/svg/misc/cd-lines.svg'
