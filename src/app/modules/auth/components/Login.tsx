@@ -19,7 +19,7 @@ const loginSchema = Yup.object().shape({
 })
 
 const initialValues = {
-  email: 'erd1kx0cmqe5dyr4t3zq54f2gcylznhtnnxqt4ndrd5qdd34fln2ezhsasdc7k',
+  email: 'admin@demo.com',
   password: 'demo',
 }
 
@@ -54,14 +54,14 @@ export function Login() {
 
   return (
     <form
-      className='form w-100 com-navy p-5'
+      className='form w-100 com-navy'
       onSubmit={formik.handleSubmit}
       noValidate
       id='kt_login_signin_form'
     >
       {/* begin::Heading */}
       <div className='text-center mb-10'>
-        <h1 className='text-dark my-3'>Sign In</h1>
+        <h1 className='text-dark mb-3'>Sign In</h1>
         <div className='text-gray-400 fw-semibold fs-4'>
           Wallet-Aware Gateway
         </div>
@@ -72,7 +72,7 @@ export function Login() {
       <div className='text-center'>
         
         {/* begin::btn1 link */}
-        <a href='#' className='btn btn-flex flex-center com-navy btn-border btn-lg w-100 btn-border mb-5'>
+        <a href='#' className='btn btn-flex flex-center com-grey btn-lg w-100 btn-w-border mb-5'>
           <img
             alt='Logo'
             src={toAbsoluteUrl('/media/svg/brand-logos/maiar-wallet.svg')}
@@ -83,7 +83,7 @@ export function Login() {
         {/* end::btn1 link */}
 
         {/* begin::btn2 link */}
-        <a href='#' className='btn btn-flex flex-center com-navy btn-border btn-lg w-100 btn-border mb-5'>
+        <a href='#' className='btn btn-flex flex-center com-grey btn-lg w-100 btn-w-border mb-5'>
           <img
             alt='Logo'
             src={toAbsoluteUrl('/media/svg/brand-logos/egld.svg')}
@@ -94,7 +94,7 @@ export function Login() {
         {/* end::btn2 link */}
 
         {/* begin::btn3 link */}
-        <a href='#' className='btn btn-flex flex-center com-navy btn-border btn-lg w-100 btn-border'>
+        <a href='#' className='btn btn-flex flex-center com-grey btn-lg w-100 btn-w-border'>
           <img
             alt='Logo'
             src={toAbsoluteUrl('/media/svg/brand-logos/ledger-wallet.svg')}
@@ -106,13 +106,11 @@ export function Login() {
 
 
         {/* begin::Separator */}
-        
-        <div className='d-flex flex-row flex-center'>
-          <div className='separator w-25 m-2'></div>  
-          <div className='text-center text-muted text-uppercase fw-bold m-5'>or</div>
-          <div className='separator w-25 m-2'></div>
+        <div className="row my-14 flex-center">
+          <div className="separator separator-content">
+            <span className="w-125px text-gray-500 fw-semibold text-uppercase fs-7 mb-5">OR</span>
+          </div>
         </div>
-
         {/* end::Separator */}
 
         <button
