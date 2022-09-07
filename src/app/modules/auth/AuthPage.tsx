@@ -23,7 +23,7 @@ const AuthLayout = () => {
       }}
     >
       {/* begin::Content */}
-      <div className='d-flex row mx-3 p-5 align-items-center my-auto'>
+      <div className='d-flex row mx-5 p-5 align-items-center my-auto'>
         {/* begin::Logo */}
         <div className='col-lg-6 pl-3'>
           <a href='#' className='m-0 pb-2'>

@@ -13,9 +13,6 @@ const RightToolbar: FC = () => {
         <ToggleHelpDrawer />
         <PurchaseButton />
       </div>
-
-      <DemosDrawer />
-      <HelpDrawer />
     </>
   )
 }

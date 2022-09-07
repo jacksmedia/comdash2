@@ -10,7 +10,7 @@ import {
 const DashboardPage = () => (
   <>
     {/* begin::Row */}
-    <div className='row gy-5 g-xl-8 mb-5'>
+    <div className='row gy-5 g-xl-2 mb-5'>
 
       <div className='col-xl-4'>
         <div className='rounded d-flex row flex-center card-xl-stretch mb-5 mx-2 mb-xl-8 testgreen'>
