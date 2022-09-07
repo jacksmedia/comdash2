@@ -32,8 +32,6 @@ const HeaderUserMenu: FC = () => {
 
       <div className='separator my-2'></div>
 
-      
-
       <div className='separator my-2'></div>
 
       <div className='menu-item px-5'>

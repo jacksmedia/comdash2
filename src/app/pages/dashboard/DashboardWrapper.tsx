@@ -18,9 +18,9 @@ const DashboardPage = () => (
             <h2 className='fw-bold text-white'>Hello, @joeiwu</h2>
             <p className='fw-bold text-white'>Thank you for being loyal and actively supporting Combased.</p>
           </div>
-          <div className='rounded com-navy d-flex row flex-center card-xl-stretch mb-5 mb-xl-8'> </div>
+          <div className='rounded com-navy row g-3 g-lg-6'>
             <TilesWidget5
-              className='mx-3 my-2 dark-card-bg card-lg-stretch'
+              className='col-6 my-2 dark-card-bg'
               svgIcon='/media/svg/misc/cd-lines.svg'
               titleClass='text-white'
               descriptionClass='text-muted'
@@ -29,17 +29,17 @@ const DashboardPage = () => (
               description='Tier Score'
             />
             <TilesWidget5
-              className='mx-3 my-2 dark-card-bg card-lg-stretch'
+              className='col-6 my-2 dark-card-bg'
               svgIcon='/media/svg/misc/cd-boxes.svg'
               titleClass='text-white'
               descriptionClass='text-muted'
               iconClass='svg-icon-success'
               title='98'
               description='Combased NFTs'
-            />              
+            />
           </div>
         </div>
-
+      </div>
       <div className='col-xl-8'>
         <TilesWidget3 className='card-xl-stretch mb-5 mb-xl-8 com-navy' />
       </div>
