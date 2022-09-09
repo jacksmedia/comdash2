@@ -60,39 +60,40 @@ export function Login() {
       id='kt_login_signin_form'
     >
       {/* begin::Heading */}
-      <div className='text-center mb-10'>
-        <h1 className='text-dark mb-3'>Sign In</h1>
+      <div className='text-center mb-10 p-5'>
+        <h1 className='text-dark my-3'>Sign In</h1>
         <div className='text-gray-400 fw-semibold fs-4'>
           Wallet-Aware Gateway
         </div>
       </div>
       {/* end::Heading */}
 
-      {/* begin::Action */}
-      <div className='text-center'>
-        
-        {/* begin::btn1 link */}
-        <a href='#' className='btn btn-flex flex-center com-grey btn-lg w-100 btn-w-border mb-5'>
-          <img
-            alt='Logo'
-            src={toAbsoluteUrl('/media/svg/brand-logos/maiar-wallet.svg')}
-            className='h-20px me-3'
-          />
-          Maiar Defi Wallet
-        </a>
-        {/* end::btn1 link */}
+        {/* begin::Action */}
+        <div className='text-center'>
+        <div className='d-flex flex-row p-5'>
+          
+          {/* begin::btn1 link */}
+          <a href='#' className='col btn btn-flex flex-center com-grey btn-lg w-100 btn-w-border mb-5 mr-3'>
+            <img
+              alt='Logo'
+              src={toAbsoluteUrl('/media/svg/brand-logos/maiar-wallet.svg')}
+              className='h-20px me-3'
+            />
+            Maiar Defi Wallet
+          </a>
+          {/* end::btn1 link */}
 
-        {/* begin::btn2 link */}
-        <a href='#' className='btn btn-flex flex-center com-grey btn-lg w-100 btn-w-border mb-5'>
-          <img
-            alt='Logo'
-            src={toAbsoluteUrl('/media/svg/brand-logos/egld.svg')}
-            className='h-20px me-3'
-          />
-          Elrond Web Wallet
-        </a>
-        {/* end::btn2 link */}
-
+          {/* begin::btn2 link */}
+          <a href='#' className='col btn btn-flex flex-center com-grey btn-lg w-100 btn-w-border mb-5'>
+            <img
+              alt='Logo'
+              src={toAbsoluteUrl('/media/svg/brand-logos/egld.svg')}
+              className='h-20px me-3'
+            />
+            Elrond Web Wallet
+          </a>
+          {/* end::btn2 link */}
+        </div>
         {/* begin::btn3 link */}
         <a href='#' className='btn btn-flex flex-center com-grey btn-lg w-100 btn-w-border'>
           <img
