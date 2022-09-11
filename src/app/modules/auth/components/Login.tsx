@@ -70,10 +70,10 @@ export function Login() {
 
         {/* begin::Action */}
         <div className='text-center'>
-        <div className='d-flex flex-row p-5'>
+        <div className='row justify-content-evenly p-5'>
           
           {/* begin::btn1 link */}
-          <a href='#' className='col btn btn-flex flex-center com-grey btn-lg w-100 btn-w-border mb-5 mr-3'>
+          <a href='#' className='col btn btn-flex flex-center com-grey btn-lg w-100 btn-w-border mb-5'>
             <img
               alt='Logo'
               src={toAbsoluteUrl('/media/svg/brand-logos/maiar-wallet.svg')}
@@ -82,6 +82,11 @@ export function Login() {
             Maiar Defi Wallet
           </a>
           {/* end::btn1 link */}
+
+          {/* start:: raw spacer */}
+          <span className='col-1'>
+          </span>
+          {/* end:: raw spacer */}
 
           {/* begin::btn2 link */}
           <a href='#' className='col btn btn-flex flex-center com-grey btn-lg w-100 btn-w-border mb-5'>
