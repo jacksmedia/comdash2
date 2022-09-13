@@ -16,7 +16,7 @@ const TilesWidget3 = ({
 }: Props) => {
   return (
     <div
-      className={clsx('card h-100 bgi-no-repeat bgi-size-cover', className)}
+      className={clsx('card h-100 img-fluid', className)}
       style={{backgroundImage: `url("${toAbsoluteUrl('/media/illustrations/tier-elite.png')}")`}}
     >
       {/* begin::Body */}

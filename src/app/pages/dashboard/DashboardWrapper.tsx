@@ -10,7 +10,7 @@ import {
 const DashboardPage = () => (
   <>
     {/* begin::Row */}
-    <div className='row gy-5 g-xl-2 mb-5'>
+    <div className='row gy-5 g-xl-8 mb-5'>
 
       <div className='col-xl-4'>
         <div className='rounded d-flex row flex-center card-xl-stretch mb-5 mx-2 mb-xl-8 testgreen'>
@@ -18,9 +18,9 @@ const DashboardPage = () => (
             <h2 className='fw-bold text-white'>Hello, @joeiwu</h2>
             <p className='fw-bold text-white'>Thank you for being loyal and actively supporting Combased.</p>
           </div>
-          <div className='rounded com-navy row g-3 g-lg-6'>
+          <div className='row px-3 g-3 g-lg-6'>
             <TilesWidget5
-              className='col-6 my-2 dark-card-bg'
+              className='col my-2 mx-1 dark-card-bg'
               svgIcon='/media/svg/misc/cd-lines.svg'
               titleClass='text-white'
               descriptionClass='text-muted'
@@ -29,7 +29,7 @@ const DashboardPage = () => (
               description='Tier Score'
             />
             <TilesWidget5
-              className='col-6 my-2 dark-card-bg'
+              className='col my-2 mx-1 dark-card-bg'
               svgIcon='/media/svg/misc/cd-boxes.svg'
               titleClass='text-white'
               descriptionClass='text-muted'
