@@ -23,9 +23,9 @@ const AuthLayout = () => {
       }}
     >
       {/* begin::Content */}
-      <div className='d-flex row mx-5 p-5 align-items-center my-auto'>
+      <div className='d-flex row mx-5 p-5 justify-content-center align-items-center my-auto'>
         {/* begin::Logo */}
-        <div className='col-lg-6 pl-3 pb-5'>
+        <div className='col-lg-6 pl-3 pb-5 my-auto d-flex align-items-start flex-column'>
           <a href='#' className='m-0 pb-2'>
             <img alt='Logo' src={toAbsoluteUrl('/media/logos/default.svg')} className='h-45px' />
           </a>

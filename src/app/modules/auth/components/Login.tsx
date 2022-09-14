@@ -69,8 +69,8 @@ export function Login() {
       {/* end::Heading */}
 
         {/* begin::Action */}
-        <div className='text-center'>
-        <div className='row justify-content-evenly p-5'>
+        <div className='text-center p-2'>
+        <div className='row justify-content-evenly p-lg-5'>
           
           {/* begin::btn1 link */}
           <a href='#' className='col btn btn-flex flex-center com-grey btn-lg w-100 btn-w-border mb-5'>

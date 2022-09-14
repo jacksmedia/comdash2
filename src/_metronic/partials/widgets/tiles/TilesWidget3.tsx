@@ -15,10 +15,7 @@ const TilesWidget3 = ({
   title2 = 'based on your current holdings.',
 }: Props) => {
   return (
-    <div
-      className={clsx('card h-100 img-fluid', className)}
-      style={{backgroundImage: `url("${toAbsoluteUrl('/media/illustrations/tier-elite.png')}")`}}
-    >
+    <div className='card h-100'>
       {/* begin::Body */}
       <div className='card-body d-flex flex-column justify-content-start'>
         {/* begin::Title */}
@@ -57,6 +54,11 @@ const TilesWidget3 = ({
 
       </div>
       {/* end::Body */}
+      <div
+        className={clsx('card rounded float-end', className)}
+        style={{backgroundImage: `url("${toAbsoluteUrl('/media/illustrations/tier-elite.png')}")`}}
+      >
+      </div>
     </div>
   )
 }
