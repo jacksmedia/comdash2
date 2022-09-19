@@ -15,9 +15,10 @@ const TilesWidget3 = ({
   title2 = 'based on your current holdings.',
 }: Props) => {
   return (
-    <div className='card h-100'>
+    <div className={clsx('card rounded', className)}
+        style={{backgroundImage: `url("${toAbsoluteUrl('/media/illustrations/tier-elite.png')}")`}}>
       {/* begin::Body */}
-      <div className='card-body d-flex flex-column justify-content-start'>
+      <div className='card-body d-flex flex-column justify-content-between'>
         {/* begin::Title */}
         <div className='text-white fw-bold fs-2'>
           <h2 className='fw-bold text-white mb-2'>You are currently ELITE tier,</h2>
@@ -52,12 +53,7 @@ const TilesWidget3 = ({
         {/* end::Buttons */}
 
 
-      </div>
       {/* end::Body */}
-      <div
-        className={clsx('card rounded float-end', className)}
-        style={{backgroundImage: `url("${toAbsoluteUrl('/media/illustrations/tier-elite.png')}")`}}
-      >
       </div>
     </div>
   )

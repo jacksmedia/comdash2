@@ -16,11 +16,14 @@ const TilesWidget2 = ({
 }: Props) => {
   return (
     <div
-      className={clsx('card bgi-no-repeat bgi-size-contain', className)}
+      className={clsx('card', className)}
       style={{
         backgroundColor: bgColor,
-        backgroundPosition: 'right',
-        backgroundImage: `url("${toAbsoluteUrl('/media/illustrations/Combots-Vector.png')}")`,
+        backgroundImage: `url("${toAbsoluteUrl('/media/illustrations/Combots-Vector-sm.png')}")`,
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: '20rem',
+        backgroundPosition: 'right bottom',
+        minHeight: '20rem',
       }}
     >
       <div className='card-body d-flex flex-column justify-content-between'>
