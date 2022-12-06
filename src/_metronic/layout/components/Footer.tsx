@@ -12,9 +12,9 @@ const Footer: FC = () => {
       >
         {/* begin::Copyright */}
         <div className='text-dark order-2 order-md-1'>
-          <span className='text-muted fw-semibold me-2'>{new Date().getFullYear()} &copy;</span>
-          <a href='#' className='text-gray-800 text-hover-primary'>
-            Combased
+          <span className='text-gray-800 fw-semibold me-2'>&copy; {new Date().getFullYear()}</span>
+          <a href='#' className='text-muted text-hover-primary'>
+            ComDash, a product of Combased.
           </a>
         </div>
         {/* end::Copyright */}
