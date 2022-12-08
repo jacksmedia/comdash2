@@ -18,24 +18,23 @@ const TilesWidget3 = ({
     <div className={clsx('card rounded', className)}
         style={{backgroundImage: `url("${toAbsoluteUrl('/media/illustrations/tier-elite.png')}")`}}>
       {/* begin::Body */}
-      <div className='card-body d-flex flex-column justify-content-between'>
+      <div className='card-body d-flex flex-column justify-content-start'>
         {/* begin::Title */}
-        <div className='text-white fw-bold fs-2'>
-          <h2 className='fw-bold text-white mb-2'>You are currently ELITE tier,</h2>
-          based on your current holdings.
+        <div className='text-white fw-bold fs-2 mb-5'>
+          <h2 className='fw-bold text-white mx-2 mb-2 w-50'>You are currently ELITE tier, based on your current holdings.</h2>
         </div>
         {/* end::Title */}
 
         {/* begin::Link */}
-        <a href='#' className='text-warning fw-semibold'>
+        <a href='#' className='text-white font-italic my-5'>
           You have 8 NFTs with an average ranking of 750. You are ___ from achieving the next tier.
         </a>
         {/* end::Link */}
         {/* begin::Buttons */}
-        <div className='my-4 d-flex flex-row justify-content-start'>
+        <div className='my-2 d-flex flex-row justify-content-start my-3'>
           <a
             href='#'
-            className='btn btn-success px-4 py-2'
+            className='btn btn-success px-4 py-4'
             data-bs-toggle='modal'
             data-bs-target='#kt_modal_create_app'
           >
@@ -43,7 +42,7 @@ const TilesWidget3 = ({
           </a>
           <a
             href='#'
-            className='btn btn-secondary px-4 py-2 mx-2'
+            className='btn btn-secondary px-4 py-4 mx-2'
             data-bs-toggle='modal'
             data-bs-target='#kt_modal_create_app'
           >

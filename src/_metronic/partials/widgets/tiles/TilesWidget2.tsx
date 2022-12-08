@@ -19,26 +19,34 @@ const TilesWidget2 = ({
       className={clsx('card', className)}
       style={{
         backgroundColor: bgColor,
-        backgroundImage: `url("${toAbsoluteUrl('/media/illustrations/Combots-Vector-sm.png')}")`,
+        backgroundImage: `url("${toAbsoluteUrl('/media/illustrations/combiens-teaser.png')}")`,
         backgroundRepeat: 'no-repeat',
         backgroundSize: '20rem',
-        backgroundPosition: 'right bottom',
+        backgroundPosition: 'center center',
         minHeight: '20rem',
       }}
     >
       <div className='card-body d-flex flex-column justify-content-between'>
-        <h2 className='fw-bold mb-5'>
+        <h2 className='fw-bold mb-5 text-center'>
           {title} <br /> {title2}{' '}
         </h2>
 
-        <div className='m-0'>
+        <div className='my-2 d-flex flex-row justify-content-start my-3'>
           <a
             href='#'
-            className='btn btn-success px-4 py-2'
+            className='btn btn-success px-3 py-2'
             data-bs-toggle='modal'
             data-bs-target='#kt_modal_create_app'
           >
-            Mint Combots
+            WL for Combiens
+          </a>
+          <a
+            href='#'
+            className='btn btn-secondary px-3 py-2 mx-2'
+            data-bs-toggle='modal'
+            data-bs-target='#kt_modal_create_app'
+          >
+            Our Roadmap
           </a>
         </div>
       </div>
