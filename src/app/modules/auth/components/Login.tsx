@@ -61,7 +61,7 @@ export function Login() {
     >
       {/* begin::Heading */}
       <div className='text-center mb-10 p-5'>
-        <h1 className='text-dark my-3'>Sign In</h1>
+        <h1 className='my-3 text-secondary'>Sign In</h1>
         <div className='text-gray-400 fw-semibold fs-4'>
           Wallet-Aware Gateway
         </div>
@@ -73,7 +73,7 @@ export function Login() {
         <div className='row justify-content-evenly p-lg-5'>
           
           {/* begin::btn1 link */}
-          <a href='#' className='col btn btn-flex flex-center com-grey btn-lg w-100 btn-w-border mb-5'>
+          <a href='#' className='col btn btn-flex text-secondary flex-center btn-lg w-100 btn-w-border mb-5'>
             <img
               alt='Logo'
               src={toAbsoluteUrl('/media/svg/brand-logos/maiar-wallet.svg')}
@@ -89,7 +89,7 @@ export function Login() {
           {/* end:: raw spacer */}
 
           {/* begin::btn2 link */}
-          <a href='#' className='col btn btn-flex flex-center com-grey btn-lg w-100 btn-w-border mb-5'>
+          <a href='#' className='col btn btn-flex text-secondary flex-center btn-lg w-100 btn-w-border mb-5'>
             <img
               alt='Logo'
               src={toAbsoluteUrl('/media/svg/brand-logos/egld.svg')}
@@ -100,7 +100,7 @@ export function Login() {
           {/* end::btn2 link */}
         </div>
         {/* begin::btn3 link */}
-        <a href='#' className='btn btn-flex flex-center com-grey btn-lg w-100 btn-w-border'>
+        <a href='#' className='btn btn-flex flex-center text-secondary btn-lg w-100 btn-w-border'>
           <img
             alt='Logo'
             src={toAbsoluteUrl('/media/svg/brand-logos/ledger-wallet.svg')}

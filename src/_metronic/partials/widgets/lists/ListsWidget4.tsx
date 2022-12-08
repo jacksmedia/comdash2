@@ -39,7 +39,7 @@ const ListsWidget4: React.FC<Props> = ({className, items = 6}) => {
         <div className='d-flex align-items-sm-center mb-7'>
           {/* begin::Symbol */}
           <div className='symbol symbol-50px me-5'>
-            <span className='symbol-label'>
+            <span className='symbol-label' data-theme='dark'>
               <img
                 src={toAbsoluteUrl('/media/svg/brand-logos/egld.svg')}
                 className='h-50 align-self-center'
@@ -76,7 +76,7 @@ const ListsWidget4: React.FC<Props> = ({className, items = 6}) => {
         <div className='d-flex align-items-sm-center mb-7'>
           {/* begin::Symbol */}
           <div className='symbol com-navy symbol-50px me-5'>
-            <span className='symbol-label'>
+            <span className='symbol-label' data-theme='dark'>
               <img
                 src={toAbsoluteUrl('/media/svg/brand-logos/ride.svg')}
                 className='h-50 align-self-center'
@@ -113,7 +113,7 @@ const ListsWidget4: React.FC<Props> = ({className, items = 6}) => {
         <div className='d-flex align-items-sm-center mb-7'>
           {/* begin::Symbol */}
           <div className='symbol symbol-50px me-5'>
-            <span className='symbol-label'>
+            <span className='symbol-label' data-theme='dark'>
               <img
                 src={toAbsoluteUrl('/media/svg/brand-logos/utk.svg')}
                 className='h-50 align-self-center'
@@ -150,7 +150,7 @@ const ListsWidget4: React.FC<Props> = ({className, items = 6}) => {
         <div className='d-flex align-items-sm-center mb-7'>
           {/* begin::Symbol */}
           <div className='symbol symbol-50px me-5'>
-            <span className='symbol-label'>
+            <span className='symbol-label' data-theme='dark'>
               <img
                 src={toAbsoluteUrl('/media/svg/brand-logos/crt.svg')}
                 className='h-50 align-self-center'
@@ -188,7 +188,7 @@ const ListsWidget4: React.FC<Props> = ({className, items = 6}) => {
           <div className='d-flex align-items-sm-center mb-7'>
             {/* begin::Symbol */}
             <div className='symbol symbol-50px me-5'>
-              <span className='symbol-label'>
+              <span className='symbol-label' data-theme='dark'>
                 <img
                   src={toAbsoluteUrl('/media/svg/brand-logos/crt.svg')}
                   className='h-50 align-self-center'

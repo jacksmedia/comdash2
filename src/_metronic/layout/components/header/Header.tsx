@@ -10,6 +10,7 @@ const Header: FC = () => {
   return (
     <div
       className='header-menu align-items-stretch'
+      data-theme='dark'
       data-kt-drawer='true'
       data-kt-drawer-name='header-menu'
       data-kt-drawer-activate='{default: true, lg: false}'

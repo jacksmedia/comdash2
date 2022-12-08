@@ -16,6 +16,7 @@ export function HeaderWrapper() {
     <div
       id='kt_header'
       className={clsx('header', classes.header.join(' '), 'align-items-stretch')}
+      data-theme='dark'
       data-kt-sticky='true'
       data-kt-sticky-name='header'
       data-kt-sticky-offset="{default: '200px', lg: '300px'}"
