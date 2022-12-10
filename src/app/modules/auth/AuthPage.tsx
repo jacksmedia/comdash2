@@ -17,23 +17,23 @@ const AuthLayout = () => {
 
   return (
     <div
-      className='d-flex flex-column flex-column-fluid bgi-position-y-top position-x-center bgi-no-repeat bgi-size-cover bgi-attachment-fluid'
+      className='container d-flex flex-column flex-column-fluid bgi-position-y-top position-x-right bgi-no-repeat bgi-size-cover bgi-attachment-fluid'
       style={{
         backgroundImage: `url(${toAbsoluteUrl('/media/illustrations/ComDash-Background-Login.jpg')})`,
       }}
     >
       {/* begin::Content */}
-      <div className='d-flex flex-center'>
+      <div className='row d-flex flex-row-fluid flex-lg-row'>
         {/* begin::Logo */}
-        <div className='d-flex flex-column p-10'>
+        <div className='col align-items-start col-lg-12 d-flex flex-center flex-column * pt-15 pt-lg-0 px-10'>
           <a href='#' className='mb-7'>
             <img alt='Logo' src={toAbsoluteUrl('/media/logos/default.svg')} className='h-45px' />
           </a>
-          <p className='text-white my-2'>ComDash - The Web3 Swiss-army Dashboard on The Elrond Blockchain.</p>
+          <p className='text-white my-2'>ComDash - The Web3 Swiss-army Dashboard on the world's most decentralised blockchain, MultiversX.</p>
         </div>
         {/* end::Logo */}
         {/* begin::Button Panel */}
-        <div className='col-lg-6 d-flex justify-content-center flex-center w-lg-50 p-10'>
+        <div className='col col-lg-12 d-flex flex-center * p-10'>
           <div className='com-navy rounded shadow-sm p-5'>
             <Outlet />
           </div>
