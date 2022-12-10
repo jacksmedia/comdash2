@@ -19,22 +19,22 @@ const AuthLayout = () => {
     <div
       className='d-flex flex-column flex-column-fluid bgi-position-y-top position-x-center bgi-no-repeat bgi-size-cover bgi-attachment-fluid'
       style={{
-        backgroundImage: `url(${toAbsoluteUrl('/media/illustrations/sketchy-1/ComDash-Background-Login.jpg')})`,
+        backgroundImage: `url(${toAbsoluteUrl('/media/illustrations/ComDash-Background-Login.jpg')})`,
       }}
     >
       {/* begin::Content */}
-      <div className='d-flex row mx-5 p-5 justify-content-center align-items-center my-auto'>
+      <div className='d-flex flex-center'>
         {/* begin::Logo */}
-        <div className='col-lg-6 pl-3 pb-5 my-auto d-flex align-items-start flex-column'>
-          <a href='#' className='m-0 pb-2'>
+        <div className='d-flex flex-column p-10'>
+          <a href='#' className='mb-7'>
             <img alt='Logo' src={toAbsoluteUrl('/media/logos/default.svg')} className='h-45px' />
           </a>
           <p className='text-white my-2'>ComDash - The Web3 Swiss-army Dashboard on The Elrond Blockchain.</p>
         </div>
         {/* end::Logo */}
         {/* begin::Button Panel */}
-        <div className='col-lg-6 d-flex justify-content-center'>
-          <div className='com-navy rounded shadow-sm p-5 max-w-70'>
+        <div className='col-lg-6 d-flex justify-content-center flex-center w-lg-50 p-10'>
+          <div className='com-navy rounded shadow-sm p-5'>
             <Outlet />
           </div>
         </div>
