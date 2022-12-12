@@ -23,9 +23,9 @@ const AuthLayout = () => {
       }}
     >
       {/* begin::Content */}
-      <div className='row d-flex flex-row-fluid flex-lg-row'>
+      <div className='d-flex flex-column flex-column-fluid flex-lg-row'>
         {/* begin::Logo */}
-        <div className='col align-items-start col-lg-12 d-flex flex-center flex-column * pt-15 pt-lg-0 px-10'>
+        <div className='align-items-start d-flex flex-center flex-column w-lg-50 pt-15 pt-lg-0 px-10'>
           <a href='#' className='mb-7'>
             <img alt='Logo' src={toAbsoluteUrl('/media/logos/default.svg')} className='h-45px' />
           </a>
@@ -33,7 +33,7 @@ const AuthLayout = () => {
         </div>
         {/* end::Logo */}
         {/* begin::Button Panel */}
-        <div className='col col-lg-12 d-flex flex-center * p-10'>
+        <div className='d-flex flex-center w-lg-50 p-10'>
           <div className='com-navy rounded shadow-sm p-5'>
             <Outlet />
           </div>
