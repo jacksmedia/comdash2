@@ -6,6 +6,7 @@ import {getUserByToken, login} from '../core/_requests'
 import {toAbsoluteUrl} from '../../../../_metronic/helpers'
 import {useAuth} from '../core/Auth'
 
+
 const loginSchema = Yup.object().shape({
   email: Yup.string()
     .email('Wrong email format')
@@ -45,7 +46,7 @@ export function Login() {
       } catch (error) {
         console.error(error)
         saveAuth(undefined)
-        setStatus('The login detail is incorrect')
+        setStatus('The login details are incorrect')
         setSubmitting(false)
         setLoading(false)
       }
@@ -92,7 +93,7 @@ export function Login() {
           <a href='#' className='col btn btn-flex text-white flex-center btn-lg w-100 btn-w-border mb-5'>
             <img
               alt='Logo'
-              src={toAbsoluteUrl('/media/svg/brand-logos/egld.svg')}
+              src={toAbsoluteUrl('/media/svg/brand-logos/egld-new-logo.svg')}
               className='h-20px me-3'
             />
             Elrond Web Wallet
