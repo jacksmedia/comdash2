@@ -25,7 +25,7 @@ const DashboardPage = () => (
               titleClass='text-white'
               descriptionClass='text-muted'
               iconClass='svg-icon-success'
-              title='3.56'
+              title='6.56'
               description='Tier Score'
             />
             <TilesWidget5

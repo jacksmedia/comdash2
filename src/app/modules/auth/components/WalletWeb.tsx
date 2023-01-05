@@ -61,7 +61,7 @@ export function WalletWeb() {
     >
       {/* begin::Heading */}
       <div className='text-center mb-10'>
-        <h1 className='text-dark mb-3'>Sign In</h1>
+        <h1 className='text-dark mb-3'>CBD Sign In</h1>
         <div className='text-gray-400 fw-semibold fs-4'>
           Wallet-Aware Gateway
         </div>
@@ -78,7 +78,7 @@ export function WalletWeb() {
             src={toAbsoluteUrl('/media/svg/brand-logos/google-icon.svg')}
             className='h-20px me-3'
           />
-          1 Wallet
+          Maiar Defi Wallet
         </a>
         {/* end::btn1 link */}
 
@@ -89,7 +89,7 @@ export function WalletWeb() {
             src={toAbsoluteUrl('/media/svg/brand-logos/elrond-logo.png')}
             className='h-20px me-3'
           />
-          2 Wallet
+          MultiversX Web Wallet
         </a>
         {/* end::btn2 link */}
 
@@ -100,7 +100,7 @@ export function WalletWeb() {
             src={toAbsoluteUrl('/media/svg/brand-logos/apple-black.svg')}
             className='h-20px me-3'
           />
-          3 Wallet
+          Ledger Hardware Wallet
         </a>
         {/* end::btn3 link */}
 

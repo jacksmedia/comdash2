@@ -11,23 +11,23 @@ type Props = {
 const TilesWidget3 = ({
   className,
   bgColor = '#663259',
-  title = 'You are currently ELITE tier,',
+  title = 'You are currently Prime tier,',
   title2 = 'based on your current holdings.',
 }: Props) => {
   return (
-    <div className={clsx('card rounded', className)}
-        style={{backgroundImage: `url("${toAbsoluteUrl('/media/illustrations/tier-elite.png')}")`}}>
+    <div className={clsx('card rounded', className)}>
+        
       {/* begin::Body */}
       <div className='card-body d-flex flex-column justify-content-start'>
         {/* begin::Title */}
         <div className='text-white fw-bold fs-2 mb-5'>
-          <h2 className='fw-bold text-white mx-2 mb-2 w-50'>You are currently ELITE tier, based on your current holdings.</h2>
+          <h2 className='fw-bold text-white mx-2 mb-2 w-50'>You rewards rank is Prime tier, based on your current holdings.</h2>
         </div>
         {/* end::Title */}
 
         {/* begin::Link */}
         <a href='#' className='text-white font-italic my-5'>
-          You have 8 NFTs with an average ranking of 750. You are ___ from achieving the next tier.
+          You have 98 NFTs with an average rarity of 378. You are 1.56 from achieving the next tier.
         </a>
         {/* end::Link */}
         {/* begin::Buttons */}

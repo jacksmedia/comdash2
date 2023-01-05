@@ -16,12 +16,7 @@ const AuthLayout = () => {
   }, [])
 
   return (
-    <div
-      className='container d-flex flex-column flex-column-fluid bgi-position-y-top position-x-right bgi-no-repeat bgi-size-cover bgi-attachment-fluid'
-      style={{
-        backgroundImage: `url(${toAbsoluteUrl('/media/illustrations/ComDash-Background-Login.jpg')})`,
-      }}
-    >
+    <div className='container d-flex flex-column flex-column-fluid bgi-position-y-top position-x-right bgi-no-repeat bgi-size-cover bgi-attachment-fluid'>
       {/* begin::Content */}
       <div className='d-flex flex-column flex-column-fluid flex-lg-row'>
         {/* begin::Logo */}
