@@ -23,6 +23,9 @@ body {
 // @include theme-dark() {
 // 	body:not(.app-blank) {
 // 		background-image: url('../media/patterns/header-bg-dark.png');
+// 		background-origin: border-box;
+// 		background-repeat: no-repeat;
+// 		background-position: right 0% bottom 0%;
 // 	}
 // }
 
