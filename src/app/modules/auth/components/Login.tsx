@@ -77,39 +77,25 @@ export function Login() {
           <a href='#' className='col btn btn-flex text-white flex-center btn-lg w-100 btn-w-border mb-5'>
             <img
               alt='Logo'
-              src={toAbsoluteUrl('/media/svg/brand-logos/maiar-wallet.svg')}
+              src={toAbsoluteUrl('/media/svg/brand-logos/web-wallet.svg')}
               className='h-20px me-3'
             />
-            Maiar Defi Wallet
+            Web Wallet
           </a>
           {/* end::btn1 link */}
 
-          {/* start:: raw spacer */}
-          <span className='col-1'>
-          </span>
-          {/* end:: raw spacer */}
 
           {/* begin::btn2 link */}
-          <a href='#' className='col btn btn-flex text-white flex-center btn-lg w-100 btn-w-border mb-5'>
+          <a href='#' className='btn btn-flex flex-center text-white btn-lg w-100 btn-w-border'>
             <img
               alt='Logo'
-              src={toAbsoluteUrl('/media/svg/brand-logos/egld-new-logo.svg')}
+              src={toAbsoluteUrl('/media/svg/brand-logos/ledger-wallet.svg')}
               className='h-20px me-3'
             />
-            Elrond Web Wallet
+            Ledger Hardware Wallet
           </a>
           {/* end::btn2 link */}
         </div>
-        {/* begin::btn3 link */}
-        <a href='#' className='btn btn-flex flex-center text-white btn-lg w-100 btn-w-border'>
-          <img
-            alt='Logo'
-            src={toAbsoluteUrl('/media/svg/brand-logos/ledger-wallet.svg')}
-            className='h-20px me-3'
-          />
-          Ledger Hardware Wallet
-        </a>
-        {/* end::btn3 link */}
 
 
         {/* begin::Separator */}
@@ -120,13 +106,20 @@ export function Login() {
         </div>
         {/* end::Separator */}
 
+        {/* begin::btn3 link */}
         <button
           type='submit'
           id='kt_sign_in_submit'
           className='btn btn-lg btn-success w-100 mb-5'
           disabled={formik.isSubmitting || !formik.isValid}
-        >
-          {!loading && <span className='indicator-label'>Maiar App</span>}
+          >
+          {!loading && <div className='indicator-label'>
+            <img
+                alt='Logo'
+                src={toAbsoluteUrl('/media/svg/brand-logos/egld-new-logo.svg')}
+                className='h-20px me-3'
+              />
+            <span>xPortal App</span></div>}
           {loading && (
             <span className='indicator-progress' style={{display: 'block'}}>
               Please wait...
@@ -134,6 +127,7 @@ export function Login() {
             </span>
           )}
         </button>
+        {/* end::btn3 link */}
       </div>
       {/* end::Action */}
     </form>
