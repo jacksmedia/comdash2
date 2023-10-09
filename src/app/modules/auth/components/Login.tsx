@@ -84,7 +84,6 @@ export function Login() {
           </a>
           {/* end::btn1 link */}
 
-
           {/* begin::btn2 link */}
           <a href='#' className='btn btn-flex flex-center text-white btn-lg w-100 btn-w-border'>
             <img
@@ -96,7 +95,6 @@ export function Login() {
           </a>
           {/* end::btn2 link */}
         </div>
-
 
         {/* begin::Separator */}
         <div className="row my-14 flex-center">
@@ -122,7 +120,7 @@ export function Login() {
             <span>xPortal App</span></div>}
           {loading && (
             <span className='indicator-progress' style={{display: 'block'}}>
-              Please wait...
+              Mocking QR login. Please wait...
               <span className='spinner-border spinner-border-sm align-middle ms-2'></span>
             </span>
           )}
