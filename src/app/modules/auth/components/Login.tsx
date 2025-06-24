@@ -24,14 +24,10 @@ const initialValues = {
   password: 'demo',
 }
 
-/*
-  Formik+YUP+Typescript:
-  https://jaredpalmer.com/formik/docs/tutorial#getfieldprops
-  https://medium.com/@maurice.de.beijer/yup-validation-and-typescript-and-formik-6c342578a20e
-*/
 
 export function Login() {
   const [loading, setLoading] = useState(false)
+
   const {saveAuth, setCurrentUser} = useAuth()
   const formik = useFormik({
     initialValues,
@@ -74,25 +70,50 @@ export function Login() {
         <div className='row justify-content-evenly p-lg-5'>
           
           {/* begin::btn1 link */}
-          <a href='#' className='col btn btn-flex text-white flex-center btn-lg w-100 btn-w-border mb-5'>
-            <img
+          <button
+            type='submit'
+            id='kt_sign_in_submit'
+            className='btn btn-flex flex-center text-white btn-lg w-100 btn-w-border'
+            disabled={formik.isSubmitting || !formik.isValid}
+          >
+            {!loading && <div className='indicator-label'>            <img
               alt='Logo'
               src={toAbsoluteUrl('/media/svg/brand-logos/web-wallet.svg')}
               className='h-20px me-3'
             />
-            Web Wallet
-          </a>
+            <span>Web Wallet</span>
+           </div>}
+            {loading && (
+              <span className='indicator-progress' style={{display: 'block'}}>
+                Mocking Web Wallet login. Please wait...
+                <span className='spinner-border spinner-border-sm align-middle ms-2'></span>
+              </span>
+            )}
+          </button>
           {/* end::btn1 link */}
 
           {/* begin::btn2 link */}
-          <a href='#' className='btn btn-flex flex-center text-white btn-lg w-100 btn-w-border'>
-            <img
-              alt='Logo'
-              src={toAbsoluteUrl('/media/svg/brand-logos/ledger-wallet.svg')}
-              className='h-20px me-3'
-            />
-            Ledger Hardware Wallet
-          </a>
+          <button
+            type='submit'
+            id='kt_sign_in_submit'
+            className='btn btn-flex flex-center text-white btn-lg w-100 btn-w-border'
+            disabled={formik.isSubmitting || !formik.isValid}
+          >
+            {!loading && <div className='indicator-label'>
+              <img
+                alt='Logo'
+                src={toAbsoluteUrl('/media/svg/brand-logos/ledger-wallet.svg')}
+                className='h-20px me-3'
+              />
+              <span>Ledger Hardware Wallet</span>
+            </div>}
+            {loading && (
+              <span className='indicator-progress' style={{display: 'block'}}>
+                Mocking Hardware Wallet login. Please wait...
+                <span className='spinner-border spinner-border-sm align-middle ms-2'></span>
+              </span>
+            )}
+          </button>
           {/* end::btn2 link */}
         </div>
 
@@ -113,14 +134,15 @@ export function Login() {
           >
           {!loading && <div className='indicator-label'>
             <img
-                alt='Logo'
-                src={toAbsoluteUrl('/media/svg/brand-logos/egld-new-logo.svg')}
-                className='h-20px me-3'
-              />
-            <span>xPortal App</span></div>}
+              alt='Logo'
+              src={toAbsoluteUrl('/media/svg/brand-logos/egld-new-logo.svg')}
+              className='h-20px me-3'
+            />
+            <span>xPortal App</span>
+          </div>}
           {loading && (
             <span className='indicator-progress' style={{display: 'block'}}>
-              Mocking QR login. Please wait...
+              Mocking  login. Please wait...
               <span className='spinner-border spinner-border-sm align-middle ms-2'></span>
             </span>
           )}

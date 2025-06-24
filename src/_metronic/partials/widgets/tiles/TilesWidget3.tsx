@@ -32,22 +32,30 @@ const TilesWidget3 = ({
         {/* end::Link */}
         {/* begin::Buttons */}
         <div className='my-2 d-flex flex-row justify-content-start my-3'>
-          <a
-            href='#'
+          <button
             className='btn btn-success px-4 py-4'
-            data-bs-toggle='modal'
-            data-bs-target='#kt_modal_create_app'
+            data-toggle='modal'
+            data-target='#modal1'
           >
             See Benefits
-          </a>
-          <a
-            href='#'
+          </button>
+          <div className="modal fade" id="modal1" tab-index="-1" role="dialog" aria-labelledby="exampleModalSizeLg" aria-hidden="true">
+            <div className="modal-dialog modal-dialog-centered" role="document">
+                Huzzah!
+            </div>
+          </div>
+          <button
             className='btn btn-secondary px-4 py-4 mx-2'
-            data-bs-toggle='modal'
-            data-bs-target='#kt_modal_create_app'
+            data-toggle='modal'
+            data-target='#modal2'
           >
             Tiers / Ranks
-          </a>
+          </button>
+          <div className="modal fade" id="modal2" tab-index="-1" role="dialog" aria-labelledby="exampleModalSizeLg" aria-hidden="true">
+            <div className="modal-dialog modal-dialog-centered" role="document">
+                Huzzah!
+            </div>
+          </div>
         </div>
         {/* end::Buttons */}
 
